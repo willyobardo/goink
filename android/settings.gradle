@@ -1,0 +1,3 @@
+rootProject.name = 'GoInk_V2'
+
+include ':app'
