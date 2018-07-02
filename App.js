@@ -4,6 +4,7 @@ import LoginScreen from './screens/LoginScreen';
 import ClientTattooScreen from './screens/ClientTattooScreen';
 import ClientAgendaScreen from './screens/ClientAgendaScreen';
 import ClientTattoerProfile from './screens/ClientTattoerProfile';
+import ClientInfoTattoo from './screens/ClientInfoTattoo';
 import {createStackNavigator, createDrawerNavigator, DrawerItems, SafeAreaView } from 'react-navigation';
 import {Container, Content, Header, Icon} from 'native-base' 
 
@@ -47,6 +48,9 @@ const AppNavigator = createDrawerNavigator({
   },
   ClientTattoerProfile: {
     screen: ClientTattoerProfile
+  },
+  ClientInfoTattoo: {
+    screen: ClientInfoTattoo
   }
 })
 
