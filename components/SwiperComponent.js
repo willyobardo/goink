@@ -48,6 +48,10 @@ export default class SwiperComponent extends Component {
   onOpenTattooer = () => {
       this.props.navigation.navigate('ClientTattoerProfile', {dados: this.state.tattoerData});
   };
+
+   onOpenTattoo = () => {
+      this.props.navigation.navigate('ClientInfoTattoo', {dados: this.state.tattoerData});
+  };
 render() {
     return(
         <Container>
@@ -79,7 +83,7 @@ render() {
                         source={{uri: item.images}}
                       />
 
-                       <Button dark style={styles.buttonEuquero} onPress={() => console.warn(item.id)}>
+                       <Button dark style={styles.buttonEuquero} onPress={()=> this.onOpenTattoo()}>
                           <Text>Eu quero!!!</Text>
                         </Button>
                   </View>

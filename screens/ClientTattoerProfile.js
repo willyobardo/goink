@@ -23,7 +23,6 @@ export default class ClientTattoerProfile extends Component {
     const tattoador = dados.inker;
     return(
       <Container >
-      {console.warn(tattoador)}
       <HeaderGoInk abrindoDrawerPeloHeader={this.props.navigation.openDrawer}/>
         <Content>
           <Image
