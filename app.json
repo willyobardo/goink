@@ -1,0 +1,40 @@
+   {
+   "expo": {
+    "name": "GoInk",
+   "icon": "img/icons/icon.png",
+    "version": "1.0.0",
+    "slug": "goink",
+    "sdkVersion": "27.0.0",
+    "facebookScheme" : "fb247581699305354",
+    "facebookAppId" : "247581699305354",
+    "facebookDisplayName": "GoInk-App",
+    "ios": {
+      "bundleIdentifier": "br.kinterativa.testes.goink"
+    },
+    "android": {
+      "package": "br.kinterativa.testes.goink"
+    },
+    "splash": {
+    /* 
+      Color to fill the loading screen background
+      6 character long hex color string, eg: "#000000" 
+    */
+    "backgroundColor": "#000000",
+
+    /* 
+      Determines how the "image" will be displayed in the splash loading screen. 
+      Must be one of "cover" or "contain", defaults to `contain`. 
+      Valid values: "cover", "contain" 
+    */
+    "resizeMode": "cover",
+
+    /* 
+      Local path or remote url to an image.
+      Will fill the background of the loading/splash screen. 
+      Image size and aspect ratio are up to you. Must be a .png.
+    */
+     "image": "./img/splash.png"
+    }
+  
+   }
+ }
